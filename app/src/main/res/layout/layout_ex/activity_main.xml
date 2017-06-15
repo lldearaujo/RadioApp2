@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.root.radioapp.MainActivity"
-    app:backgroundTint="@color/colorPrimary">
-
-
+    tools:context="com.learn2crack.bottomnavigationview.MainActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -26,7 +22,6 @@
 
     <include layout="@layout/content_main" />
 
-
     <android.support.design.widget.BottomNavigationView
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -36,10 +31,6 @@
         android:layout_gravity="bottom"
         android:background="@android:color/white"
         app:elevation="8dp"
-        app:menu="@menu/menu_navigation"
-        app:itemBackground="@color/menubar"
-        app:itemIconTint="@color/preto"
-        app:itemTextColor="@color/preto"
-        app:backgroundTint="@color/colorPrimary"/>
+        app:menu="@menu/menu_navigation" />
 
 </android.support.design.widget.CoordinatorLayout>

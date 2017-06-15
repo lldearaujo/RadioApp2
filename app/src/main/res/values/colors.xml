@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="preto">#000000</color>
+    <color name="larana">#E8760D</color>
+    <color name="fundoSplash">#F7EFF5</color>
+    <color name="fundo">#A4C639</color>
+    <color name="menubar">#FFB933</color>
 </resources>
