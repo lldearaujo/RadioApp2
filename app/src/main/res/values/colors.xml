@@ -8,4 +8,8 @@
     <color name="fundoSplash">#F7EFF5</color>
     <color name="fundo">#A4C639</color>
     <color name="menubar">#FFB933</color>
+    <color name="translucent_black">#99000000</color>
+    <color name="info_text">#ffffff</color>
+    <color name="botaologin">#00FF7B</color>
+
 </resources>
