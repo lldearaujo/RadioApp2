@@ -8,9 +8,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
+import com.facebook.share.widget.ShareDialog;
+
 public class MainActivity extends AppCompatActivity {
 
     private BottomNavigationView mBottomNavigationView;
+    private ShareDialog shareDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
